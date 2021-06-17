@@ -8,7 +8,14 @@
 </head>
 <body>
 
-    <h1>Hello World!</h1>
+    <h1> {{$title}} </h1>
+    <h2> {{$bio}} </h2>
+
+    <ul>
+        <li><a href=" {{ route('home') }} ">Home</a></li>
+        <li><a href=" {{ route('servizi') }} ">I Corsi</a></li>
+        <li><a href=" {{ route('contatti') }} ">Contatti</a></li>
+    </ul>
     
 </body>
 </html>
